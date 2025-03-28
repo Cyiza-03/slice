@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(coffee123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Macondo", cursive;
+}
+.Log_in {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    padding: 2rem 10rem;
+    background-color: rgba(128, 128, 128, 0.205);
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.subDiv{
+    display: flex;
+}
+.imageDiv{
+    left: 0;
+}
+.imageDiv a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Macondo", cursive;
+}
+.imageDiv a:hover{
+    text-decoration: underline;
+    color: rgba(179, 133, 19, 0.993);
+}
+
+.imageDiv img {
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+   opacity: 0.9;
+}
+.formDiv{
+    margin: 2rem 0px 0px 20px;
+}
+
+form {
+    background-color: rgba(128, 128, 128, 0.411);
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+}
+form h3 {
+    color: white;
+    font-family: "Macondo", cursive;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input {
+    width: 450px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+label {
+    color: white;
+    margin: 20px;
+    font-weight: bolder;
+}
+.Log_in p a{
+    float: right;
+    margin-right: 12%;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.Log_in p a:hover{
+    text-decoration: underline;
+    color:  rgba(179, 133, 19, 0.993);
+}
+.paragraph1, .paragraph2{
+    font-size: 15px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    
+}
+.social-media{
+    text-align: center;
+}
+.social-media a{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid transparent;
+    padding: 8px;
+    border-radius: 5px;
+    color:  rgba(77, 24, 5, 0.884);
+}
+.social-media a:hover{
+    background-color:  rgb(102, 33, 8);
+    color: white;
+
+}
+#submit{
+    border: none;
+    border-radius:10px ;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    background-color:  rgba(77, 24, 5, 0.884);
+    text-align: center;
+}
+#submit:hover{
+    background-color:  rgba(77, 24, 5, 1);
+    cursor: pointer;
+}
